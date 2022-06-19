@@ -1,0 +1,15 @@
+{
+	"envelopes": [
+		{
+			"title": "Groceries",
+			"budget": 1000,
+			"id": 1
+		},
+		{
+			"title": "bill",
+			"budget": 500,
+			"id": 2
+		}
+	],
+	"totalBudget": 9000.0
+}

@@ -3,8 +3,14 @@ const app = express();
 const bodyParser = require("body-parser");
 const logger = require("morgan");
 
+const envelopeRouter = require("./server/envelopesRouter");
+const budgetRouter = require("./server/budgetRouter");
+
 app.use(logger("dev"));
 app.use(bodyParser.json());
+
+app.use("/envelopes", envelopeRouter);
+app.use("/totalBudget", budgetRouter);
 
 const PORT = process.env.PORT || 3000;
 
