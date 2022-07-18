@@ -1,7 +1,26 @@
 {
-	"dependencies": {
-		"body-parser": "^1.20.0",
-		"express": "^4.18.1",
-		"morgan": "^1.10.0"
-	}
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "morgan": "^1.10.0"
+  },
+  "scripts": {
+    "start": "node server.js"
+  },
+  "name": "personal-budget",
+  "description": "The REST API application demonstrates the envelope budgeting system, using express framework.",
+  "version": "1.0.0",
+  "main": "server.js",
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ekrlbn/Envelope-Budgeting.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ekrlbn/Envelope-Budgeting/issues"
+  },
+  "homepage": "https://github.com/ekrlbn/Envelope-Budgeting#readme"
 }
